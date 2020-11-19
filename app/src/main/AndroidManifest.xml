@@ -30,12 +30,12 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.example.omrscanning_app.fileprovider"
+            android:authorities="com.example.android.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_list"></meta-data>
+                android:resource="@xml/file_paths"></meta-data>
         </provider>
     </application>
 

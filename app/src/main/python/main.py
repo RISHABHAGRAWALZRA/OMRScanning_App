@@ -14,7 +14,7 @@ def startScanning(data):
     choices = 4
 
     print(path)
-    print("hello",os.listdir("sdcard1"))
+    #print("hello",os.listdir("sdcard1"))
 
     #img = np.asarray(data, dtype="uint8")
     #img = cv2.imdecode(img, cv2.IMREAD_COLOR)
